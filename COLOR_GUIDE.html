@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Color Guide</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f8fafc;
+        }
+        h1 {
+            color: #1e293b;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .color-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .color-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .color-preview {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        .color-info {
+            padding: 20px;
+        }
+        .color-info h3 {
+            margin: 0 0 10px 0;
+            color: #1e293b;
+        }
+        .color-info p {
+            margin: 5px 0;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        .stats {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .stats h2 {
+            color: #1e293b;
+            margin-bottom: 20px;
+        }
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .stat-item:last-child {
+            border-bottom: none;
+        }
+        .stat-label {
+            color: #64748b;
+        }
+        .stat-value {
+            color: #1e293b;
+            font-weight: 600;
+        }
+        .success-banner {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="success-banner">
+        ✨ Portfolio Color Scheme - Professional & Modern ✨
+    </div>
+
+    <h1>Category Color Guide</h1>
+
+    <div class="color-grid">
+        <div class="color-card">
+            <div class="color-preview" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                Web Apps
+            </div>
+            <div class="color-info">
+                <h3>Web Apps</h3>
+                <p><strong>4 Projects</strong></p>
+                <p>Purple Gradient</p>
+                <p>#667eea → #764ba2</p>
+                <p style="margin-top: 10px; font-size: 0.85rem;">Weather, Chat, Todo, Login</p>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-preview" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                Games
+            </div>
+            <div class="color-info">
+                <h3>Games</h3>
+                <p><strong>5 Projects</strong></p>
+                <p>Pink Gradient</p>
+                <p>#f093fb → #f5576c</p>
+                <p style="margin-top: 10px; font-size: 0.85rem;">Quiz, Tic-Tac-Toe, RPS, Guessing, Typing</p>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-preview" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                Utilities
+            </div>
+            <div class="color-info">
+                <h3>Utilities</h3>
+                <p><strong>11 Projects</strong></p>
+                <p>Blue Gradient</p>
+                <p>#4facfe → #00f2fe</p>
+                <p style="margin-top: 10px; font-size: 0.85rem;">Calculator, BMI, Currency, Dictionary, etc.</p>
+            </div>
+        </div>
+
+        <div class="color-card">
+            <div class="color-preview" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                Business Tools
+            </div>
+            <div class="color-info">
+                <h3>Business Tools</h3>
+                <p><strong>4 Projects</strong></p>
+                <p>Green Gradient</p>
+                <p>#43e97b → #38f9d7</p>
+                <p style="margin-top: 10px; font-size: 0.85rem;">Expense, Resume, Attendance, Student</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats">
+        <h2>📊 Portfolio Statistics</h2>
+        <div class="stat-item">
+            <span class="stat-label">Total Projects</span>
+            <span class="stat-value">24</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Categories</span>
+            <span class="stat-value">4</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Technologies</span>
+            <span class="stat-value">Python, Flask, SQLite, HTML/CSS, JavaScript</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Total Lines of Code</span>
+            <span class="stat-value">2,236 lines</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">File Size</span>
+            <span class="stat-value">~100 KB (lightweight)</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-label">Status</span>
+            <span class="stat-value" style="color: #43e97b;">✓ Ready to Deploy</span>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <h2 style="color: #1e293b; margin-bottom: 15px;">🚀 Quick Start</h2>
+        <ol style="color: #64748b; line-height: 1.8;">
+            <li>Start server: <code style="background: #f1f5f9; padding: 2px 8px; border-radius: 4px;">python -m http.server 8001</code></li>
+            <li>Open browser: <code style="background: #f1f5f9; padding: 2px 8px; border-radius: 4px;">http://localhost:8001</code></li>
+            <li>Click filter buttons to see color-coded projects</li>
+            <li>Click any project card to view full details</li>
+            <li>Personalize and deploy to GitHub Pages!</li>
+        </ol>
+    </div>
+</body>
+</html>

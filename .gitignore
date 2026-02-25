@@ -1,0 +1,15 @@
+# Ignore files
+*.log
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Keep these for later
+server.log
+test.html

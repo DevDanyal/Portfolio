@@ -1,0 +1,388 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Weather App",
+      "category": "web-apps",
+      "description": "Real-time weather application with city search and current conditions display",
+      "technologies": ["Python", "Flask", "REST API", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Real-time weather data from API",
+        "City search functionality",
+        "Temperature and conditions display",
+        "Responsive design"
+      ],
+      "image": "assets/images/projects/weather-app.png",
+      "github": "https://github.com/Devdanyal/weather-app",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Chat Application",
+      "category": "web-apps",
+      "description": "Real-time chat application with multiple users and message history",
+      "technologies": ["Python", "Flask", "WebSocket", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Real-time messaging",
+        "Multiple user support",
+        "Message history",
+        "Clean chat interface"
+      ],
+      "image": "assets/images/projects/chat-app.png",
+      "github": "https://github.com/Devdanyal/chat-app",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Todo List Manager",
+      "category": "web-apps",
+      "description": "Task management application with CRUD operations and priority levels",
+      "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Add, edit, delete tasks",
+        "Mark tasks as complete",
+        "Priority levels",
+        "Persistent storage"
+      ],
+      "image": "assets/images/projects/todo-app.png",
+      "github": "https://github.com/Devdanyal/todo-app",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Calculator Web App",
+      "category": "utilities",
+      "description": "Modern calculator with basic arithmetic operations and clean UI",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Basic arithmetic operations",
+        "Keyboard support",
+        "Clean, intuitive interface",
+        "Responsive design"
+      ],
+      "image": "assets/images/projects/calculator-app.png",
+      "github": "https://github.com/Devdanyal/calculator-app",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "title": "Expense Tracker",
+      "category": "business-tools",
+      "description": "Personal finance tracker with expense categorization and reporting",
+      "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Track income and expenses",
+        "Category management",
+        "Visual reports and charts",
+        "Export data functionality"
+      ],
+      "image": "assets/images/projects/expense-tracker.png",
+      "github": "https://github.com/Devdanyal/expense-tracker",
+      "featured": true
+    },
+    {
+      "id": 6,
+      "title": "Quiz Application",
+      "category": "games",
+      "description": "Interactive quiz app with multiple choice questions and score tracking",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Multiple choice questions",
+        "Score tracking",
+        "Timer functionality",
+        "Results summary"
+      ],
+      "image": "assets/images/projects/quiz-app.png",
+      "github": "https://github.com/Devdanyal/quiz-app",
+      "featured": true
+    },
+    {
+      "id": 7,
+      "title": "Resume Builder",
+      "category": "business-tools",
+      "description": "Professional resume builder with templates and PDF export",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Multiple resume templates",
+        "Real-time preview",
+        "PDF export",
+        "Save and edit functionality"
+      ],
+      "image": "assets/images/projects/resume-builder.png",
+      "github": "https://github.com/Devdanyal/resume-builder",
+      "featured": true
+    },
+    {
+      "id": 8,
+      "title": "Attendance System",
+      "category": "business-tools",
+      "description": "Employee attendance tracking system with reporting features",
+      "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Check-in/check-out tracking",
+        "Employee management",
+        "Attendance reports",
+        "Admin dashboard"
+      ],
+      "image": "assets/images/projects/attendance-system.png",
+      "github": "https://github.com/Devdanyal/attendance-system",
+      "featured": true
+    },
+    {
+      "id": 9,
+      "title": "BMI Calculator",
+      "category": "utilities",
+      "description": "Body Mass Index calculator with health recommendations",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "BMI calculation",
+        "Health category display",
+        "Imperial and metric units",
+        "Visual indicators"
+      ],
+      "image": "assets/images/projects/bmi-calculator.png",
+      "github": "https://github.com/Devdanyal/bmi-calculator",
+      "featured": true
+    },
+    {
+      "id": 10,
+      "title": "Currency Converter",
+      "category": "utilities",
+      "description": "Real-time currency converter with multiple currencies",
+      "technologies": ["Python", "Flask", "REST API", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Real-time exchange rates",
+        "Multiple currency support",
+        "Conversion history",
+        "Clean interface"
+      ],
+      "image": "assets/images/projects/currency-converter.png",
+      "github": "https://github.com/Devdanyal/currency-converter",
+      "featured": true
+    },
+    {
+      "id": 11,
+      "title": "Contact Book",
+      "category": "utilities",
+      "description": "Digital contact management system with search and filtering",
+      "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Add, edit, delete contacts",
+        "Search functionality",
+        "Contact categorization",
+        "Export contacts"
+      ],
+      "image": "assets/images/projects/contact-book.png",
+      "github": "https://github.com/Devdanyal/contact-book",
+      "featured": true
+    },
+    {
+      "id": 12,
+      "title": "Dictionary App",
+      "category": "utilities",
+      "description": "Online dictionary with word definitions and examples",
+      "technologies": ["Python", "Flask", "REST API", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Word definitions",
+        "Example sentences",
+        "Pronunciation guide",
+        "Search history"
+      ],
+      "image": "assets/images/projects/dictionary-app.png",
+      "github": "https://github.com/Devdanyal/dictionary-app",
+      "featured": true
+    },
+    {
+      "id": 13,
+      "title": "Password Generator",
+      "category": "utilities",
+      "description": "Secure password generator with customizable options",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Customizable password length",
+        "Include/exclude character types",
+        "Password strength indicator",
+        "Copy to clipboard"
+      ],
+      "image": "assets/images/projects/password-generator.png",
+      "github": "https://github.com/Devdanyal/password-generator",
+      "featured": true
+    },
+    {
+      "id": 14,
+      "title": "Stopwatch App",
+      "category": "utilities",
+      "description": "Digital stopwatch with lap timing functionality",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Start, stop, reset functionality",
+        "Lap time recording",
+        "Clean digital display",
+        "Keyboard shortcuts"
+      ],
+      "image": "assets/images/projects/stopwatch-app.png",
+      "github": "https://github.com/Devdanyal/stopwatch-app",
+      "featured": true
+    },
+    {
+      "id": 15,
+      "title": "Tic Tac Toe Game",
+      "category": "games",
+      "description": "Classic tic-tac-toe game with AI opponent",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Player vs Player mode",
+        "Player vs AI mode",
+        "Score tracking",
+        "Responsive game board"
+      ],
+      "image": "assets/images/projects/tic-tac-toe.png",
+      "github": "https://github.com/Devdanyal/tic-tac-toe",
+      "featured": true
+    },
+    {
+      "id": 16,
+      "title": "Rock Paper Scissors",
+      "category": "games",
+      "description": "Interactive rock-paper-scissors game with score tracking",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Play against computer",
+        "Score tracking",
+        "Animated results",
+        "Game statistics"
+      ],
+      "image": "assets/images/projects/rock-paper-scissors.png",
+      "github": "https://github.com/Devdanyal/rock-paper-scissors",
+      "featured": true
+    },
+    {
+      "id": 17,
+      "title": "Number Guessing Game",
+      "category": "games",
+      "description": "Fun number guessing game with difficulty levels",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Multiple difficulty levels",
+        "Hint system",
+        "Attempt tracking",
+        "High score leaderboard"
+      ],
+      "image": "assets/images/projects/number-guessing.png",
+      "github": "https://github.com/Devdanyal/number-guessing",
+      "featured": true
+    },
+    {
+      "id": 18,
+      "title": "Notepad Web App",
+      "category": "utilities",
+      "description": "Simple online notepad with auto-save functionality",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Auto-save functionality",
+        "Multiple notes support",
+        "Search and filter",
+        "Export as text file"
+      ],
+      "image": "assets/images/projects/notepad-app.png",
+      "github": "https://github.com/Devdanyal/notepad-app",
+      "featured": true
+    },
+    {
+      "id": 19,
+      "title": "Unit Converter",
+      "category": "utilities",
+      "description": "Multi-purpose unit converter for various measurements",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Length, weight, temperature conversion",
+        "Real-time conversion",
+        "Multiple unit support",
+        "Conversion history"
+      ],
+      "image": "assets/images/projects/unit-converter.png",
+      "github": "https://github.com/Devdanyal/unit-converter",
+      "featured": true
+    },
+    {
+      "id": 20,
+      "title": "Student Management System",
+      "category": "business-tools",
+      "description": "Comprehensive student management and tracking system",
+      "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Student registration",
+        "Grade management",
+        "Attendance tracking",
+        "Report generation"
+      ],
+      "image": "assets/images/projects/student-management.png",
+      "github": "https://github.com/Devdanyal/student-management",
+      "featured": true
+    },
+    {
+      "id": 21,
+      "title": "Login System",
+      "category": "web-apps",
+      "description": "Secure user authentication and login system",
+      "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
+      "features": [
+        "User registration and login",
+        "Password hashing",
+        "Session management",
+        "Password reset functionality"
+      ],
+      "image": "assets/images/projects/login-system.png",
+      "github": "https://github.com/Devdanyal/login-system",
+      "featured": true
+    },
+    {
+      "id": 22,
+      "title": "Digital Clock",
+      "category": "utilities",
+      "description": "Elegant digital clock with date display",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Real-time clock display",
+        "Date and day display",
+        "12/24 hour format",
+        "Customizable themes"
+      ],
+      "image": "assets/images/projects/digital-clock.png",
+      "github": "https://github.com/Devdanyal/digital-clock",
+      "featured": true
+    },
+    {
+      "id": 23,
+      "title": "Countdown Timer",
+      "category": "utilities",
+      "description": "Customizable countdown timer for events and tasks",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "Set custom countdown time",
+        "Visual and audio alerts",
+        "Pause and resume",
+        "Multiple timers"
+      ],
+      "image": "assets/images/projects/countdown-timer.png",
+      "github": "https://github.com/Devdanyal/countdown-timer",
+      "featured": true
+    },
+    {
+      "id": 24,
+      "title": "Typing Speed Test",
+      "category": "games",
+      "description": "Test and improve your typing speed and accuracy",
+      "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
+      "features": [
+        "WPM calculation",
+        "Accuracy tracking",
+        "Multiple difficulty levels",
+        "Performance statistics"
+      ],
+      "image": "assets/images/projects/typing-speed-test.png",
+      "github": "https://github.com/Devdanyal/typing-speed-test",
+      "featured": true
+    }
+  ]
+}

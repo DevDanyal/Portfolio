@@ -1,0 +1,21 @@
+/* DIAGNOSTIC: Check if sections are visible */
+
+/* Force all sections to be visible for debugging */
+section {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+}
+
+/* Ensure sections are not hidden behind hero */
+.hero {
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+.about, .projects, .skills, .contact {
+    position: relative !important;
+    z-index: 2 !important;
+    background-color: white !important;
+}
