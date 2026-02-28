@@ -1,0 +1,19 @@
+/* Black & White Mode Styles */
+.bw-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+body.bw-mode {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+body.bw-mode * {
+    transition: filter 0.3s ease;
+}

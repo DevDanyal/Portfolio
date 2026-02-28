@@ -17,5 +17,5 @@ section {
 .about, .projects, .skills, .contact {
     position: relative !important;
     z-index: 2 !important;
-    background-color: white !important;
+    background-color: #000000 !important;
 }

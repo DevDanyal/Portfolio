@@ -38,12 +38,21 @@ document.addEventListener('DOMContentLoaded', function() {
             'business-tools': 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)'
         };
 
-        projectsGrid.innerHTML = projects.map(project => {
-            const gradient = categoryGradients[project.category] || 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+        projectsGrid.innerHTML = projects.map((project, index) => {
+            // Use placeholder.com with category colors
+            const categoryColors = {
+                'web-apps': '667eea/764ba2',
+                'games': 'f093fb/f5576c',
+                'utilities': '4facfe/00f2fe',
+                'business-tools': '43e97b/38f9d7'
+            };
+
+            const colors = categoryColors[project.category] || '667eea/764ba2';
+
             return `
             <div class="project-card fade-in-up" data-category="${project.category}" data-id="${project.id}">
-                <div class="project-image" style="background: ${gradient}; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem; font-weight: 600;">
-                    ${project.title}
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/400x300/${colors}/ffffff?text=${encodeURIComponent(project.title)}" alt="${project.title}" loading="lazy">
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">${project.title}</h3>
@@ -106,19 +115,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const project = projectsData.find(p => p.id === projectId);
         if (!project) return;
 
-        // Define gradient colors for different categories
-        const categoryGradients = {
-            'web-apps': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-            'games': 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-            'utilities': 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-            'business-tools': 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)'
+        // Use placeholder.com for modal
+        const categoryColors = {
+            'web-apps': '667eea/764ba2',
+            'games': 'f093fb/f5576c',
+            'utilities': '4facfe/00f2fe',
+            'business-tools': '43e97b/38f9d7'
         };
 
-        const gradient = categoryGradients[project.category] || 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+        const colors = categoryColors[project.category] || '667eea/764ba2';
 
         modalBody.innerHTML = `
-            <div class="modal-image" style="background: ${gradient}; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: 600;">
-                ${project.title}
+            <div class="modal-image">
+                <img src="https://via.placeholder.com/800x400/${colors}/ffffff?text=${encodeURIComponent(project.title)}" alt="${project.title}">
             </div>
             <h2 class="modal-title">${project.title}</h2>
             <div class="modal-tech">

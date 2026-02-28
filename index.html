@@ -21,10 +21,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
-    <link rel="stylesheet" href="assets/css/debug.css">
+    <link rel="stylesheet" href="assets/css/main.css?v=20260226">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=20260226">
+    <link rel="stylesheet" href="assets/css/animations.css?v=20260226">
+    <link rel="stylesheet" href="assets/css/force-black.css?v=20260226">
+    <link rel="stylesheet" href="assets/css/theme-toggle.css?v=20260226">
+    <link rel="stylesheet" href="assets/css/debug.css?v=20260226">
 </head>
 <body>
     <!-- Navigation -->
@@ -43,8 +45,9 @@
                     <li><a href="#about" class="nav-link">About</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                    <li><a href="assets/documents/resume.pdf" class="btn btn-primary" download>Download Resume</a></li>
+                    <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+                        <span class="sun-icon">☀️</span>
+                    </button></li>
                 </ul>
             </div>
         </div>
@@ -59,7 +62,7 @@
                 <p class="hero-subtitle">AI enthusiast and Python developer building intelligent web applications</p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -175,54 +178,13 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-
             <div class="contact-content">
                 <div class="contact-info">
                     <p>I'm always open to discussing new projects, opportunities, or collaborations. Feel free to reach out!</p>
-
-                    <div class="social-links">
-                        <a href="https://github.com/Devdanyal" target="_blank" rel="noopener noreferrer" class="social-link">
-                            <span>GitHub</span>
-                        </a>
-                        <a href="mailto:aidevdanyal@gmail.com" class="social-link">
-                            <span>Email</span>
-                        </a>
-                    </div>
+                    <a href="https://wa.me/923464141007?text=Hi%20Danyal,%20I%20found%20your%20portfolio" class="btn btn-primary whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                        💬 Chat on WhatsApp
+                    </a>
                 </div>
-
-                <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                        <span class="error-message" id="nameError"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                        <span class="error-message" id="emailError"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" required>
-                        <span class="error-message" id="subjectError"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                        <span class="error-message" id="messageError"></span>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary" id="submitBtn">
-                        <span class="btn-text">Send Message</span>
-                        <span class="btn-loading" style="display: none;">Sending...</span>
-                    </button>
-
-                    <div class="form-status" id="formStatus"></div>
-                </form>
             </div>
         </div>
     </section>
@@ -252,5 +214,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/projects.js"></script>
     <script src="assets/js/contact.js"></script>
+    <script src="assets/js/theme-toggle.js"></script>
 </body>
 </html>

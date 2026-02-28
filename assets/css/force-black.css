@@ -1,0 +1,31 @@
+/* Force all sections to black - Override */
+.about,
+.projects,
+.skills,
+.contact {
+    background-color: #000000 !important;
+}
+
+body {
+    background-color: #000000 !important;
+}
+
+.project-card,
+.skill-category,
+.contact-form,
+.social-link {
+    background-color: #1a1a1a !important;
+}
+
+/* Override any white backgrounds */
+* {
+    background-color: inherit;
+}
+
+section {
+    background-color: #000000 !important;
+}
+
+.container {
+    background-color: transparent !important;
+}
