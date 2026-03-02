@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load Projects from JSON
     async function loadProjects() {
         try {
-            const response = await fetch('projects.json');
+            const response = await fetch('projects.json?v=' + Date.now());
             const data = await response.json();
             projectsData = data.projects;
             displayProjects(projectsData);
@@ -39,20 +39,12 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         projectsGrid.innerHTML = projects.map((project, index) => {
-            // Use placeholder.com with category colors
-            const categoryColors = {
-                'web-apps': '667eea/764ba2',
-                'games': 'f093fb/f5576c',
-                'utilities': '4facfe/00f2fe',
-                'business-tools': '43e97b/38f9d7'
-            };
-
-            const colors = categoryColors[project.category] || '667eea/764ba2';
+            console.log('Project:', project.title, 'Icon:', project.icon); // Debug log
 
             return `
             <div class="project-card fade-in-up" data-category="${project.category}" data-id="${project.id}">
                 <div class="project-image">
-                    <img src="https://via.placeholder.com/400x300/${colors}/ffffff?text=${encodeURIComponent(project.title)}" alt="${project.title}" loading="lazy">
+                    <i class="fa-solid ${project.icon || 'fa-box'} project-icon"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">${project.title}</h3>
@@ -62,6 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
                         `).join('')}
                     </div>
                     <p class="project-description">${project.description}</p>
+                    <div class="project-stats">
+                        <span class="project-stat"><i class="fa-solid fa-star"></i> Featured</span>
+                        <span class="project-stat"><i class="fa-solid fa-code"></i> ${project.technologies.length} Tech</span>
+                    </div>
                     <div class="project-links">
                         <a href="#" class="project-link view-details" data-id="${project.id}">View Details</a>
                         <a href="${project.github}" target="_blank" rel="noopener noreferrer" class="project-link">GitHub →</a>

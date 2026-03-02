@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "Weather App",
+      "icon": "fa-cloud-sun",
       "category": "web-apps",
       "description": "Real-time weather application with city search and current conditions display",
       "technologies": ["Python", "Flask", "REST API", "HTML/CSS", "JavaScript"],
@@ -19,6 +20,7 @@
     {
       "id": 2,
       "title": "Chat Application",
+      "icon": "fa-comments",
       "category": "web-apps",
       "description": "Real-time chat application with multiple users and message history",
       "technologies": ["Python", "Flask", "WebSocket", "HTML/CSS", "JavaScript"],
@@ -35,6 +37,7 @@
     {
       "id": 3,
       "title": "Todo List Manager",
+      "icon": "fa-list-check",
       "category": "web-apps",
       "description": "Task management application with CRUD operations and priority levels",
       "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
@@ -51,6 +54,7 @@
     {
       "id": 4,
       "title": "Calculator Web App",
+      "icon": "fa-calculator",
       "category": "utilities",
       "description": "Modern calculator with basic arithmetic operations and clean UI",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -67,6 +71,7 @@
     {
       "id": 5,
       "title": "Expense Tracker",
+      "icon": "fa-wallet",
       "category": "business-tools",
       "description": "Personal finance tracker with expense categorization and reporting",
       "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
@@ -83,6 +88,7 @@
     {
       "id": 6,
       "title": "Quiz Application",
+      "icon": "fa-circle-question",
       "category": "games",
       "description": "Interactive quiz app with multiple choice questions and score tracking",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -99,6 +105,7 @@
     {
       "id": 7,
       "title": "Resume Builder",
+      "icon": "fa-file-lines",
       "category": "business-tools",
       "description": "Professional resume builder with templates and PDF export",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -115,6 +122,7 @@
     {
       "id": 8,
       "title": "Attendance System",
+      "icon": "fa-clipboard-check",
       "category": "business-tools",
       "description": "Employee attendance tracking system with reporting features",
       "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
@@ -131,6 +139,7 @@
     {
       "id": 9,
       "title": "BMI Calculator",
+      "icon": "fa-weight-scale",
       "category": "utilities",
       "description": "Body Mass Index calculator with health recommendations",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -147,6 +156,7 @@
     {
       "id": 10,
       "title": "Currency Converter",
+      "icon": "fa-money-bill-transfer",
       "category": "utilities",
       "description": "Real-time currency converter with multiple currencies",
       "technologies": ["Python", "Flask", "REST API", "HTML/CSS", "JavaScript"],
@@ -163,6 +173,7 @@
     {
       "id": 11,
       "title": "Contact Book",
+      "icon": "fa-address-book",
       "category": "utilities",
       "description": "Digital contact management system with search and filtering",
       "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
@@ -179,6 +190,7 @@
     {
       "id": 12,
       "title": "Dictionary App",
+      "icon": "fa-book",
       "category": "utilities",
       "description": "Online dictionary with word definitions and examples",
       "technologies": ["Python", "Flask", "REST API", "HTML/CSS", "JavaScript"],
@@ -195,6 +207,7 @@
     {
       "id": 13,
       "title": "Password Generator",
+      "icon": "fa-key",
       "category": "utilities",
       "description": "Secure password generator with customizable options",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -211,6 +224,7 @@
     {
       "id": 14,
       "title": "Stopwatch App",
+      "icon": "fa-stopwatch",
       "category": "utilities",
       "description": "Digital stopwatch with lap timing functionality",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -227,6 +241,7 @@
     {
       "id": 15,
       "title": "Tic Tac Toe Game",
+      "icon": "fa-gamepad",
       "category": "games",
       "description": "Classic tic-tac-toe game with AI opponent",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -243,6 +258,7 @@
     {
       "id": 16,
       "title": "Rock Paper Scissors",
+      "icon": "fa-hand-fist",
       "category": "games",
       "description": "Interactive rock-paper-scissors game with score tracking",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -259,6 +275,7 @@
     {
       "id": 17,
       "title": "Number Guessing Game",
+      "icon": "fa-dice",
       "category": "games",
       "description": "Fun number guessing game with difficulty levels",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -275,6 +292,7 @@
     {
       "id": 18,
       "title": "Notepad Web App",
+      "icon": "fa-note-sticky",
       "category": "utilities",
       "description": "Simple online notepad with auto-save functionality",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -291,6 +309,7 @@
     {
       "id": 19,
       "title": "Unit Converter",
+      "icon": "fa-ruler",
       "category": "utilities",
       "description": "Multi-purpose unit converter for various measurements",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -307,6 +326,7 @@
     {
       "id": 20,
       "title": "Student Management System",
+      "icon": "fa-graduation-cap",
       "category": "business-tools",
       "description": "Comprehensive student management and tracking system",
       "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
@@ -323,6 +343,7 @@
     {
       "id": 21,
       "title": "Login System",
+      "icon": "fa-right-to-bracket",
       "category": "web-apps",
       "description": "Secure user authentication and login system",
       "technologies": ["Python", "Flask", "SQLite", "HTML/CSS", "JavaScript"],
@@ -339,6 +360,7 @@
     {
       "id": 22,
       "title": "Digital Clock",
+      "icon": "fa-clock",
       "category": "utilities",
       "description": "Elegant digital clock with date display",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -355,6 +377,7 @@
     {
       "id": 23,
       "title": "Countdown Timer",
+      "icon": "fa-hourglass-half",
       "category": "utilities",
       "description": "Customizable countdown timer for events and tasks",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
@@ -371,6 +394,7 @@
     {
       "id": 24,
       "title": "Typing Speed Test",
+      "icon": "fa-keyboard",
       "category": "games",
       "description": "Test and improve your typing speed and accuracy",
       "technologies": ["Python", "Flask", "HTML/CSS", "JavaScript"],
