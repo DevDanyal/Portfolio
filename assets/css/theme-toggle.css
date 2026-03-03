@@ -15,9 +15,82 @@
     transform: rotate(20deg) scale(1.1);
 }
 
+/* Color Theme Toggle Button */
+.color-theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-theme-toggle:hover {
+    transform: scale(1.2);
+}
+
 .sun-icon,
-.moon-icon {
+.moon-icon,
+.color-icon {
     display: inline-block;
+}
+
+/* Theme Glow Animation */
+body.theme-glow-animation * {
+    transition: all 0.8s ease-out !important;
+}
+
+body.theme-glow-animation .btn,
+body.theme-glow-animation .project-card,
+body.theme-glow-animation .skill-category,
+body.theme-glow-animation .filter-btn,
+body.theme-glow-animation .logo,
+body.theme-glow-animation .nav-link::after,
+body.theme-glow-animation .section-title::after,
+body.theme-glow-animation .floating-contact-btn,
+body.theme-glow-animation .footer-logo,
+body.theme-glow-animation .tech-badge,
+body.theme-glow-animation .project-stat {
+    animation: elementGlow 0.8s ease-out;
+}
+
+@keyframes elementGlow {
+    0% {
+        filter: brightness(1);
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    }
+    50% {
+        filter: brightness(1.5) saturate(1.5);
+        box-shadow: 0 0 30px var(--primary-color), 0 0 60px var(--primary-color);
+    }
+    100% {
+        filter: brightness(1);
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+body.theme-glow-animation .logo,
+body.theme-glow-animation .logo-monogram,
+body.theme-glow-animation .profile-image {
+    animation: logoGlow 0.8s ease-out;
+}
+
+@keyframes logoGlow {
+    0% {
+        filter: brightness(1);
+        text-shadow: 0 0 10px var(--primary-color);
+    }
+    50% {
+        filter: brightness(1.8) saturate(2);
+        text-shadow: 0 0 40px var(--primary-color), 0 0 80px var(--primary-color);
+    }
+    100% {
+        filter: brightness(1);
+        text-shadow: 0 0 10px var(--primary-color);
+    }
 }
 
 /* Light Mode Styles */
