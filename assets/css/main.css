@@ -420,7 +420,7 @@ a {
 }
 
 .project-card {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2d1810 50%, #1a1a2e 100%);
+    background: linear-gradient(135deg, #0a0a0a 0%, #0f0f0f 50%, #0a0a0a 100%);
     border: 1px solid rgba(255, 140, 66, 0.2);
     border-radius: 1rem;
     overflow: hidden;

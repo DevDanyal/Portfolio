@@ -39,7 +39,7 @@
 }
 
 /* Theme Glow Animation */
-body.theme-glow-animation * {
+body.theme-glow-animation *:not(.profile-image) {
     transition: all 0.8s ease-out !important;
 }
 
@@ -73,8 +73,7 @@ body.theme-glow-animation .project-stat {
 }
 
 body.theme-glow-animation .logo,
-body.theme-glow-animation .logo-monogram,
-body.theme-glow-animation .profile-image {
+body.theme-glow-animation .logo-monogram {
     animation: logoGlow 0.8s ease-out;
 }
 
